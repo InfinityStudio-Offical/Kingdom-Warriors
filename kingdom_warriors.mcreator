@@ -1,0 +1,648 @@
+{
+  "mod_elements": [
+    {
+      "name": "DarkCity",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_city",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/Dim"
+    },
+    {
+      "name": "TPDC",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpdc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Scripts"
+    },
+    {
+      "name": "TPDCCmd",
+      "type": "command",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpdc_cmd",
+      "path": "~/Commands"
+    },
+    {
+      "name": "CoinsCopper",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coins_copper",
+      "path": "~/Items/Essentinal/Coins"
+    },
+    {
+      "name": "CoinsSliver",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coins_sliver",
+      "path": "~/Items/Essentinal/Coins"
+    },
+    {
+      "name": "CoinsGold",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coins_gold",
+      "path": "~/Items/Essentinal/Coins"
+    },
+    {
+      "name": "CompresserGUI",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compresser_gui",
+      "path": "~/Blocks/Factory Uses/Compresser"
+    },
+    {
+      "name": "YourFirstCoin",
+      "type": "achievement",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "your_first_coin",
+      "path": "~/Advanc"
+    },
+    {
+      "name": "YourFirstCoinObtain",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "your_first_coin_obtain",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Scripts/Advanc"
+    },
+    {
+      "name": "CompresserClient",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compresser_client",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocks/Factory Uses/Compresser"
+    },
+    {
+      "name": "SliverDust",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliver_dust",
+      "path": "~/Mixed/Sliver Set"
+    },
+    {
+      "name": "Ores",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores",
+      "path": "~/Tabs"
+    },
+    {
+      "name": "SliverIngot",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliver_ingot",
+      "path": "~/Mixed/Sliver Set"
+    },
+    {
+      "name": "SMixerGUI",
+      "type": "gui",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_mixer_gui",
+      "path": "~/Blocks/Factory Uses/GBreaker Mixer"
+    },
+    {
+      "name": "SmixerClient",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smixer_client",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocks/Factory Uses/GBreaker Mixer"
+    },
+    {
+      "name": "GlassBreaker",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_breaker",
+      "path": "~/Mixed/Breakers"
+    },
+    {
+      "name": "Sciences",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sciences",
+      "path": "~/Tabs"
+    },
+    {
+      "name": "WaterGlassBreaker",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_glass_breaker",
+      "path": "~/Mixed/Breakers"
+    },
+    {
+      "name": "SoildBottle",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soild_bottle",
+      "path": "~/Mixed/Breakers/Mixed_Soild_Botttle"
+    },
+    {
+      "name": "SoildWithCurshedIronoreBottle",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soild_with_curshed_ironore_bottle",
+      "path": "~/Mixed/Breakers/Mixed_Soild_Botttle"
+    },
+    {
+      "name": "SoildWithCementBottle",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soild_with_cement_bottle",
+      "path": "~/Mixed/Breakers/Mixed_Soild_Botttle"
+    },
+    {
+      "name": "GlassBreakerWithSliverdust",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_breaker_with_sliverdust",
+      "path": "~/Mixed/Breakers/Scripted/Sliver Dust Breaker"
+    },
+    {
+      "name": "ExtractGBWSliverDust",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extract_gbw_sliver_dust",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mixed/Breakers/Scripted/Sliver Dust Breaker"
+    },
+    {
+      "name": "SliverSmelting",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliver_smelting",
+      "path": "~/Mixed/Sliver Set"
+    },
+    {
+      "name": "SliverBlasting",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sliver_blasting",
+      "path": "~/Mixed/Sliver Set"
+    },
+    {
+      "name": "CementRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cement_recipe",
+      "path": "~/Mixed/Breakers/Mixed_Soild_Botttle"
+    },
+    {
+      "name": "SwiftSneakEnchantment",
+      "type": "enchantment",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swift_sneak_enchantment",
+      "path": "~/Enchantments/Swift Sneak"
+    },
+    {
+      "name": "SwiftSneakClient",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swift_sneak_client",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Enchantments/Swift Sneak"
+    },
+    {
+      "name": "Diamonds",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamonds",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Loader/Override/Dimaond Sets"
+    },
+    {
+      "name": "OverrideDiamondBoot",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "override_diamond_boot",
+      "path": "~/Loader/Override/Dimaond Sets"
+    },
+    {
+      "name": "RecipeDiamondLegging",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_diamond_legging",
+      "path": "~/Loader/Override/Dimaond Sets"
+    },
+    {
+      "name": "OverrideDiamondChestplate",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "override_diamond_chestplate",
+      "path": "~/Loader/Override/Dimaond Sets"
+    },
+    {
+      "name": "OverrideDiamondHelemt",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "override_diamond_helemt",
+      "path": "~/Loader/Override/Dimaond Sets"
+    },
+    {
+      "name": "DiamondEnchantmentsBoot",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_enchantments_boot",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Loader/Override/Dimaond Sets"
+    },
+    {
+      "name": "IronBattleAxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_battle_axe",
+      "path": "~/Items/War Set/Iron Set"
+    },
+    {
+      "name": "DiamondBattleAxe",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_battle_axe",
+      "path": "~/Items/War Set/Diamond Set"
+    },
+    {
+      "name": "IBARecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iba_recipe",
+      "path": "~/Items/War Set/Recipes"
+    },
+    {
+      "name": "DBARecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dba_recipe",
+      "path": "~/Items/War Set/Recipes"
+    },
+    {
+      "name": "NetheriteBattleAxe",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_battle_axe",
+      "path": "~/Items/War Set/Netherite Set"
+    },
+    {
+      "name": "NBARecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nba_recipe",
+      "path": "~/Items/War Set/Recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.kingdom_warriors.diamonds_chestplate": "Diamonds Chestplate",
+      "item.kingdom_warriors.dark_city": "Dark City Portal Igniter",
+      "item.kingdom_warriors.soild_with_curshed_ironore_bottle": "Crushed Iron Ore Soild Bottle",
+      "item.kingdom_warriors.netherite_battle_axe": "Netherite Battle Axe",
+      "item.kingdom_warriors.coins_sliver": "Sliver Coins",
+      "item.kingdom_warriors.diamonds_helmet": "Diamonds Helmet",
+      "item.kingdom_warriors.water_glass_breaker": "Water Glass Breaker",
+      "item.kingdom_warriors.soild_bottle": "Empty Soild Bottle",
+      "item.kingdom_warriors.sliver_ingot": "Sliver Ingot",
+      "advancements.your_first_coin.descr": "Obtain your first coin",
+      "item.kingdom_warriors.soild_with_cement_bottle": "Cement Soild Bottle",
+      "item.kingdom_warriors.diamonds_leggings": "Diamonds Leggings",
+      "itemGroup.tabsciences": "Kingdom Warriors | Sciences",
+      "item.kingdom_warriors.diamond_battle_axe": "Diamond Battle Axe",
+      "item.kingdom_warriors.coins_gold": "Gold Coins",
+      "item.kingdom_warriors.sliver_dust": "Sliver Dust",
+      "item.kingdom_warriors.glass_breaker": "Empty Glass Breaker",
+      "itemGroup.tabores": "Kingdom Warriors | Ores",
+      "advancements.your_first_coin.title": "Your First Coin",
+      "enchantment.kingdom_warriors.swift_sneak_enchantment": "Swift Sneak",
+      "item.kingdom_warriors.coins_copper": "Copper Coins",
+      "item.kingdom_warriors.iron_battle_axe": "Iron Battle Axe",
+      "item.kingdom_warriors.glass_breaker_with_sliverdust": "Glass Breaker with Sliver Dust",
+      "item.kingdom_warriors.diamonds_boots": "Diamond Boot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Breakable Tools",
+            "children": [
+              {
+                "name": "Flints",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Armors",
+            "children": []
+          },
+          {
+            "name": "Essentinal",
+            "children": [
+              {
+                "name": "Coins",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "War Set",
+            "children": [
+              {
+                "name": "Iron Set",
+                "children": []
+              },
+              {
+                "name": "Diamond Set",
+                "children": []
+              },
+              {
+                "name": "Recipes",
+                "children": []
+              },
+              {
+                "name": "Netherite Set",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scripts",
+        "children": [
+          {
+            "name": "Advanc",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Dim",
+        "children": []
+      },
+      {
+        "name": "Commands",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Factory Uses",
+            "children": [
+              {
+                "name": "Compresser",
+                "children": []
+              },
+              {
+                "name": "GBreaker Mixer",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Advanc",
+        "children": []
+      },
+      {
+        "name": "Mixed",
+        "children": [
+          {
+            "name": "Sliver Set",
+            "children": []
+          },
+          {
+            "name": "Breakers",
+            "children": [
+              {
+                "name": "Mixed_Soild_Botttle",
+                "children": []
+              },
+              {
+                "name": "Scripted",
+                "children": [
+                  {
+                    "name": "Sliver Dust Breaker",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tabs",
+        "children": []
+      },
+      {
+        "name": "Enchantments",
+        "children": [
+          {
+            "name": "Swift Sneak",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Loader",
+        "children": [
+          {
+            "name": "Override",
+            "children": [
+              {
+                "name": "Dimaond Sets",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Client-Side",
+        "children": [
+          {
+            "name": "Bank",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "kingdom_warriors",
+    "modName": "Kingdom Warriors",
+    "version": "1.0.0",
+    "author": "super, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.kingdomwarriors",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

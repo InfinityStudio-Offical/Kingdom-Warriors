@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:clay_ball"
+    },
+    "1": {
+      "item": "minecraft:coarse_dirt"
+    },
+    "2": {
+      "item": "minecraft:potion"
+    },
+    "4": {
+      "item": "kingdom_warriors:soild_bottle"
+    }
+  },
+  "result": {
+    "item": "kingdom_warriors:soild_with_cement_bottle",
+    "count": 1
+  }
+}

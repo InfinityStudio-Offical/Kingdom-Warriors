@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 120,
+  "ingredient": {
+    "item": "kingdom_warriors:sliver_dust"
+  },
+  "result": "kingdom_warriors:sliver_ingot"
+}

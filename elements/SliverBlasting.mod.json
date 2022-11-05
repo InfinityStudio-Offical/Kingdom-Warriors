@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 1.0,
+    "cookingTime": 120,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:SliverDust"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:SliverIngot"
+    },
+    "name": "sliver_blasting",
+    "namespace": "mod"
+  }
+}

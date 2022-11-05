@@ -1,0 +1,104 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Compresser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Compresser",
+          "x": 130,
+          "y": 41
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #0",
+          "x": 204,
+          "y": 53
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #2",
+          "x": 204,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "compresser_logo.png",
+          "use1Xscale": false,
+          "name": "compresser_logo.png",
+          "x": 204,
+          "y": 76
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #1",
+          "x": 186,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "logo_mold_any.png",
+          "use1Xscale": false,
+          "name": "logo_mold_any.png",
+          "x": 186,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "logo_any_coins.png",
+          "use1Xscale": false,
+          "name": "logo_any_coins.png",
+          "x": 204,
+          "y": 98
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
