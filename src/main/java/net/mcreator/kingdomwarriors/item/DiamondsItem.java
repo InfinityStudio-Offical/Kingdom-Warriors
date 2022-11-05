@@ -109,7 +109,7 @@ public abstract class DiamondsItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			DiamondEnchantmentsBootProcedure.execute(world, entity, itemstack);
+			DiamondEnchantmentsBootProcedure.execute(entity, itemstack);
 		}
 	}
 }

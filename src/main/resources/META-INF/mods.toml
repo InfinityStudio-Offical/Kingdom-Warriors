@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="kingdom_warriors"
-version="1.0.0"
+version="1.0.03"
 displayName="Kingdom Warriors"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="super, MCreator"
+authors="Superproinf"
 
 [[dependencies.kingdom_warriors]]
     modId="minecraft"

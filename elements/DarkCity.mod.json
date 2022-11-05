@@ -21,6 +21,9 @@
     "sleepResult": "DENY",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
+    "onPlayerLeavesDimension": {
+      "name": "MessageDC"
+    },
     "portalFrame": {
       "value": ""
     },
