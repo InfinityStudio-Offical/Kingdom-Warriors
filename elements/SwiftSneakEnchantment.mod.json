@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "enchantment",
   "definition": {
     "name": "Swift Sneak",
@@ -9,11 +9,16 @@
     "maxLevel": 5,
     "damageModifier": 0,
     "compatibleEnchantments": [],
+    "excludeEnchantments": false,
     "compatibleItems": [
       {
-        "value": "Items.DIAMOND_BOOTS"
+        "value": "CUSTOM:Diamonds.boots"
+      },
+      {
+        "value": "CUSTOM:Netherithes.boots"
       }
     ],
+    "excludeItems": false,
     "isTreasureEnchantment": true,
     "isCurse": false,
     "isAllowedOnBooks": true,

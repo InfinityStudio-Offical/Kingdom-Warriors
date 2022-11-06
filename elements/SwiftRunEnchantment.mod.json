@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "enchantment",
   "definition": {
     "name": "Swift Run",
@@ -9,7 +9,19 @@
     "maxLevel": 3,
     "damageModifier": 0,
     "compatibleEnchantments": [],
-    "compatibleItems": [],
+    "excludeEnchantments": false,
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:Irons.boots"
+      },
+      {
+        "value": "CUSTOM:Diamonds.boots"
+      },
+      {
+        "value": "CUSTOM:Netherithes.boots"
+      }
+    ],
+    "excludeItems": false,
     "isTreasureEnchantment": true,
     "isCurse": false,
     "isAllowedOnBooks": true,

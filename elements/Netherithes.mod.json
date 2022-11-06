@@ -1,0 +1,65 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "netherites_head",
+    "enableBody": true,
+    "textureBody": "netherites_body",
+    "enableLeggings": true,
+    "textureLeggings": "netherites_leggings",
+    "enableBoots": true,
+    "textureBoots": "netherites_boots",
+    "onBootsTick": {
+      "name": "NetheriteEnchantmentBoots"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "netherites",
+    "helmetName": "Netherithes Helmet",
+    "bodyName": "Netherithes Chestplates",
+    "leggingsName": "Netherithes Leggings",
+    "bootsName": "Netherithes Boot",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 37,
+    "damageValueHelmet": 4,
+    "damageValueBody": 10,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 4,
+    "enchantability": 9,
+    "toughness": 2.5,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "Items.NETHERITE_INGOT"
+      }
+    ]
+  }
+}

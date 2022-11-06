@@ -1,0 +1,33 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "bedrock_pickaxe",
+    "customModelName": "Normal",
+    "name": "Bedrock Pickaxe",
+    "specialInfo": [
+      "§aAllows §6you to break §8Bedrock§6. §4(WIP)"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "blocksAffected": [
+      {
+        "value": "Blocks.BEDROCK"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -50,8 +50,8 @@ public class GlassBreakerWithSliverdustItem extends Item {
 
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
-		InteractionResult retval = super.useOn(context);
+		super.useOn(context);
 		ExtractGBWSliverDustProcedure.execute(context.getPlayer());
-		return retval;
+		return InteractionResult.SUCCESS;
 	}
 }

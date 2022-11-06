@@ -1,0 +1,14 @@
+{
+  "forge_marker": 1,
+  "parent": "forge:item/default",
+  "loader": "forge:obj",
+  "model": "kingdom_warriors:models/item/eletric_hammer.obj",
+  "textures": {
+    "m_5d559d66-bf02-1e46-f614-e75c28692750": "kingdom_warriors:blocks/",
+    "m_b684cdbe-0fa8-3994-b4c4-d5ab0545b0e5": "kingdom_warriors:blocks/",
+    "m_c902d77a-00d7-bad8-fb47-6247d4ae451a": "kingdom_warriors:blocks/",
+    "m_5b6bb32c-1bd4-7d32-146f-312528548547": "kingdom_warriors:blocks/",
+    "m_37edbf37-d090-8bef-a585-bed5ecbb4393": "kingdom_warriors:blocks/",
+    "particle": "kingdom_warriors:items/stormlander_mcd"
+  }
+}

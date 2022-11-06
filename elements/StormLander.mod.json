@@ -1,0 +1,33 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 2,
+    "texture": "stormlander_mcd",
+    "customModelName": "eletric_hammer:default",
+    "name": "Storm Lander",
+    "specialInfo": [
+      "§2Right click §6to summon §bLightings§6.",
+      "§73 §4second cooldown"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 0.5,
+    "enchantability": 2,
+    "damageVsEntity": 8.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "StormLanderClient"
+    }
+  }
+}

@@ -3,10 +3,13 @@ package net.mcreator.kingdomwarriors.enchantment;
 
 import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraft.world.item.enchantment.Enchantment;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.EquipmentSlot;
+
+import net.mcreator.kingdomwarriors.init.KingdomWarriorsModItems;
+
+import java.util.List;
 
 public class SwiftSneakEnchantmentEnchantment extends Enchantment {
 	public SwiftSneakEnchantmentEnchantment(EquipmentSlot... slots) {
@@ -21,7 +24,7 @@ public class SwiftSneakEnchantmentEnchantment extends Enchantment {
 	@Override
 	public boolean canApplyAtEnchantingTable(ItemStack stack) {
 		Item item = stack.getItem();
-		return item == Items.DIAMOND_BOOTS;
+		return List.of(KingdomWarriorsModItems.DIAMONDS_BOOTS.get(), KingdomWarriorsModItems.NETHERITHES_BOOTS.get()).contains(item);
 	}
 
 	@Override

@@ -24,12 +24,12 @@ public abstract class DiamondsItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 363;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 33;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{3, 6, 8, 2}[slot.getIndex()];
+				return new int[]{3, 8, 8, 3}[slot.getIndex()];
 			}
 
 			@Override

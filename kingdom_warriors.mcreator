@@ -10,7 +10,7 @@
       "metadata": {
         "ep": false
       },
-      "path": "~/Main/Dim/DC"
+      "path": "~/Main/Dimesions/DC"
     },
     {
       "name": "TPDC",
@@ -124,7 +124,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sliver_dust",
-      "path": "~/Main/Mixed/Sliver Set"
+      "path": "~/Main/Items/Sliver Set"
     },
     {
       "name": "Ores",
@@ -142,7 +142,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sliver_ingot",
-      "path": "~/Main/Mixed/Sliver Set"
+      "path": "~/Main/Items/Sliver Set"
     },
     {
       "name": "SMixerGUI",
@@ -177,7 +177,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "glass_breaker",
-      "path": "~/Main/Mixed/Breakers"
+      "path": "~/Main/Items/Breakers"
     },
     {
       "name": "Sciences",
@@ -195,7 +195,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "water_glass_breaker",
-      "path": "~/Main/Mixed/Breakers"
+      "path": "~/Main/Items/Breakers"
     },
     {
       "name": "SoildBottle",
@@ -204,7 +204,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "soild_bottle",
-      "path": "~/Main/Mixed/Breakers/Mixed_Soild_Botttle"
+      "path": "~/Main/Items/Breakers/Mixed_Soild_Botttle"
     },
     {
       "name": "SoildWithCurshedIronoreBottle",
@@ -213,7 +213,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "soild_with_curshed_ironore_bottle",
-      "path": "~/Main/Mixed/Breakers/Mixed_Soild_Botttle"
+      "path": "~/Main/Items/Breakers/Mixed_Soild_Botttle"
     },
     {
       "name": "SoildWithCementBottle",
@@ -222,7 +222,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "soild_with_cement_bottle",
-      "path": "~/Main/Mixed/Breakers/Mixed_Soild_Botttle"
+      "path": "~/Main/Items/Breakers/Mixed_Soild_Botttle"
     },
     {
       "name": "GlassBreakerWithSliverdust",
@@ -231,7 +231,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "glass_breaker_with_sliverdust",
-      "path": "~/Main/Mixed/Breakers/Scripted/Sliver Dust Breaker"
+      "path": "~/Main/Items/Breakers/Scripted/Sliver Dust Breaker"
     },
     {
       "name": "ExtractGBWSliverDust",
@@ -248,7 +248,7 @@
           }
         ]
       },
-      "path": "~/Main/Mixed/Breakers/Scripted/Sliver Dust Breaker"
+      "path": "~/Main/Items/Breakers/Scripted/Sliver Dust Breaker"
     },
     {
       "name": "SliverSmelting",
@@ -257,7 +257,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sliver_smelting",
-      "path": "~/Main/Mixed/Sliver Set"
+      "path": "~/Main/Items/Sliver Set"
     },
     {
       "name": "SliverBlasting",
@@ -266,7 +266,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sliver_blasting",
-      "path": "~/Main/Mixed/Sliver Set"
+      "path": "~/Main/Items/Sliver Set"
     },
     {
       "name": "CementRecipe",
@@ -275,7 +275,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cement_recipe",
-      "path": "~/Main/Mixed/Breakers/Mixed_Soild_Botttle"
+      "path": "~/Main/Items/Breakers/Mixed_Soild_Botttle"
     },
     {
       "name": "SwiftSneakEnchantment",
@@ -490,7 +490,206 @@
           }
         ]
       },
-      "path": "~/Main/Dim/DC"
+      "path": "~/Main/Dimesions/DC"
+    },
+    {
+      "name": "BedrockPickaxe",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bedrock_pickaxe",
+      "path": "~/Main/Items/Tools/Bedrock Pickaxe"
+    },
+    {
+      "name": "Netherithes",
+      "type": "armor",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherithes",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Loader/Override/Netherite Sets"
+    },
+    {
+      "name": "NetheriteEnchantmentBoots",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_enchantment_boots",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Loader/Override/Netherite Sets"
+    },
+    {
+      "name": "OverrideNetheriteHelmet",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "override_netherite_helmet",
+      "path": "~/Loader/Override/Netherite Sets"
+    },
+    {
+      "name": "OverrideNetheriteChestplate",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "override_netherite_chestplate",
+      "path": "~/Loader/Override/Netherite Sets"
+    },
+    {
+      "name": "OverrideNetheriteLeggings",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "override_netherite_leggings",
+      "path": "~/Loader/Override/Netherite Sets"
+    },
+    {
+      "name": "OverrideNetheriteBoots",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "override_netherite_boots",
+      "path": "~/Loader/Override/Netherite Sets"
+    },
+    {
+      "name": "Irons",
+      "type": "armor",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irons",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Loader/Override/Iron Sets"
+    },
+    {
+      "name": "IronEnchantmentBoots",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_enchantment_boots",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Loader/Override/Iron Sets"
+    },
+    {
+      "name": "OverrideIronHelmet",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "override_iron_helmet",
+      "path": "~/Loader/Override/Iron Sets"
+    },
+    {
+      "name": "OverrideIronChestplate",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "override_iron_chestplate",
+      "path": "~/Loader/Override/Iron Sets"
+    },
+    {
+      "name": "OverrideIronLeggings",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "override_iron_leggings",
+      "path": "~/Loader/Override/Iron Sets"
+    },
+    {
+      "name": "OverrideIronBoots",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "override_iron_boots",
+      "path": "~/Loader/Override/Iron Sets"
+    },
+    {
+      "name": "StormLander",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storm_lander",
+      "path": "~/Main/Items/Combat/Stormlander"
+    },
+    {
+      "name": "StormLanderClient",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storm_lander_client",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Main/Items/Combat/Stormlander"
     }
   ],
   "variable_elements": [
@@ -510,23 +709,33 @@
       "item.kingdom_warriors.netherite_battle_axe": "Netherite Battle Axe",
       "item.kingdom_warriors.coins_sliver": "Sliver Coins",
       "enchantment.kingdom_warriors.swift_run_enchantment": "Swift Run",
+      "item.kingdom_warriors.netherithes_leggings": "Netherithes Leggings",
       "item.kingdom_warriors.diamonds_helmet": "Diamonds Helmet",
       "item.kingdom_warriors.water_glass_breaker": "Water Glass Breaker",
       "item.kingdom_warriors.soild_bottle": "Empty Soild Bottle",
       "item.kingdom_warriors.sliver_ingot": "Sliver Ingot",
+      "item.kingdom_warriors.netherithes_chestplate": "Netherithes Chestplates",
       "advancements.your_first_coin.descr": "Obtain your first coin",
       "item.kingdom_warriors.soild_with_cement_bottle": "Cement Soild Bottle",
+      "item.kingdom_warriors.irons_boots": "Irons Boot",
       "item.kingdom_warriors.diamonds_leggings": "Diamonds Leggings",
       "itemGroup.tabsciences": "Kingdom Warriors | Sciences",
+      "item.kingdom_warriors.irons_chestplate": "Irons Chestplate",
       "item.kingdom_warriors.diamond_battle_axe": "Diamond Battle Axe",
       "item.kingdom_warriors.coins_gold": "Gold Coins",
       "item.kingdom_warriors.sliver_dust": "Sliver Dust",
       "item.kingdom_warriors.glass_breaker": "Empty Glass Breaker",
+      "item.kingdom_warriors.bedrock_pickaxe": "Bedrock Pickaxe",
+      "item.kingdom_warriors.storm_lander": "Storm Lander",
+      "item.kingdom_warriors.netherithes_boots": "Netherithes Boot",
       "itemGroup.tabores": "Kingdom Warriors | Ores",
+      "item.kingdom_warriors.netherithes_helmet": "Netherithes Helmet",
       "advancements.your_first_coin.title": "Your First Coin",
+      "item.kingdom_warriors.irons_leggings": "Irons Leggings",
       "enchantment.kingdom_warriors.swift_sneak_enchantment": "Swift Sneak",
       "item.kingdom_warriors.coins_copper": "Copper Coins",
       "item.kingdom_warriors.iron_battle_axe": "Iron Battle Axe",
+      "item.kingdom_warriors.irons_helmet": "Irons Helmet",
       "item.kingdom_warriors.glass_breaker_with_sliverdust": "Glass Breaker with Sliver Dust",
       "item.kingdom_warriors.diamonds_boots": "Diamond Boot"
     }
@@ -541,10 +750,10 @@
             "name": "Items",
             "children": [
               {
-                "name": "Breakable Tools",
+                "name": "Tools",
                 "children": [
                   {
-                    "name": "Flints",
+                    "name": "Bedrock Pickaxe",
                     "children": []
                   }
                 ]
@@ -582,6 +791,37 @@
                     "children": []
                   }
                 ]
+              },
+              {
+                "name": "Breakers",
+                "children": [
+                  {
+                    "name": "Mixed_Soild_Botttle",
+                    "children": []
+                  },
+                  {
+                    "name": "Scripted",
+                    "children": [
+                      {
+                        "name": "Sliver Dust Breaker",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sliver Set",
+                "children": []
+              },
+              {
+                "name": "Combat",
+                "children": [
+                  {
+                    "name": "Stormlander",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
@@ -595,7 +835,7 @@
             ]
           },
           {
-            "name": "Dim",
+            "name": "Dimesions",
             "children": [
               {
                 "name": "DC",
@@ -628,33 +868,6 @@
           {
             "name": "Advanc",
             "children": []
-          },
-          {
-            "name": "Mixed",
-            "children": [
-              {
-                "name": "Sliver Set",
-                "children": []
-              },
-              {
-                "name": "Breakers",
-                "children": [
-                  {
-                    "name": "Mixed_Soild_Botttle",
-                    "children": []
-                  },
-                  {
-                    "name": "Scripted",
-                    "children": [
-                      {
-                        "name": "Sliver Dust Breaker",
-                        "children": []
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
           },
           {
             "name": "Tabs",
@@ -693,6 +906,14 @@
               {
                 "name": "Dimaond Sets",
                 "children": []
+              },
+              {
+                "name": "Netherite Sets",
+                "children": []
+              },
+              {
+                "name": "Iron Sets",
+                "children": []
               }
             ]
           }
@@ -716,5 +937,5 @@
     "modElementsPackage": "net.mcreator.kingdomwarriors",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202200345616
 }
