@@ -2,13 +2,13 @@
   "_fv": 34,
   "_type": "tool",
   "definition": {
-    "renderType": 2,
+    "renderType": 1,
     "texture": "stormlander_mcd",
-    "customModelName": "eletric_hammer:default",
+    "customModelName": "eletric_hammer_v3:default",
     "name": "Storm Lander",
     "specialInfo": [
-      "§2Right click §6to summon §bLightings§6.",
-      "§73 §4second cooldown"
+      "§9Right click &6to summon &bLightings§6.",
+      "§83 §4seconds cooldown"
     ],
     "creativeTab": {
       "value": "COMBAT"
@@ -26,7 +26,7 @@
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onRightClickedInAir": {
+    "onRightClickedOnBlock": {
       "name": "StormLanderClient"
     }
   }

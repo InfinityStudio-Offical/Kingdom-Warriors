@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stromlander_1",
+        "1": "stromlander_2",
+        "2": "dark_grey_1",
+        "3": "stick_in_blue_b2",
+        "4": "gold_sungod",
+        "missing": "stromlander_1"
+      },
+      "name": "default"
+    }
+  }
+}

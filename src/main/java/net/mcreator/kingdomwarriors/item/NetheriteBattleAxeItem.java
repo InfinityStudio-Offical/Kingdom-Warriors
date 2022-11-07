@@ -21,7 +21,7 @@ public class NetheriteBattleAxeItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 13f;
 			}
 
 			public int getLevel() {

@@ -1,0 +1,61 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "kingdom_warriors:items/stromlander_1",
+		"1": "kingdom_warriors:items/stromlander_2",
+		"2": "kingdom_warriors:items/dark_grey_1",
+		"3": "kingdom_warriors:items/stick_in_blue_b2",
+		"4": "kingdom_warriors:items/gold_sungod",
+		"particle": "kingdom_warriors:items/stromlander_1"
+	},
+	"elements": [
+		{
+			"name": "Functional",
+			"from": [5, 12, 3],
+			"to": [11, 17, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.75, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#2"}
+			}
+		},
+		{
+			"name": "Bottem",
+			"from": [6, 0, 6],
+			"to": [10, 2, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.75, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#4"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#4"}
+			}
+		},
+		{
+			"name": "Handle",
+			"from": [7, 2, 7],
+			"to": [9, 12, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7.75, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#missing"},
+				"down": {"uv": [0, 0, 2, 2], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1.5, 0]
+		}
+	}
+}

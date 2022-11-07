@@ -23,6 +23,7 @@ import net.mcreator.kingdomwarriors.item.IronsItem;
 import net.mcreator.kingdomwarriors.item.IronBattleAxeItem;
 import net.mcreator.kingdomwarriors.item.GlassBreakerWithSliverdustItem;
 import net.mcreator.kingdomwarriors.item.GlassBreakerItem;
+import net.mcreator.kingdomwarriors.item.EletricalIngotItem;
 import net.mcreator.kingdomwarriors.item.DiamondsItem;
 import net.mcreator.kingdomwarriors.item.DiamondBattleAxeItem;
 import net.mcreator.kingdomwarriors.item.CoinsSliverItem;
@@ -65,4 +66,5 @@ public class KingdomWarriorsModItems {
 	public static final RegistryObject<Item> IRONS_LEGGINGS = REGISTRY.register("irons_leggings", () -> new IronsItem.Leggings());
 	public static final RegistryObject<Item> IRONS_BOOTS = REGISTRY.register("irons_boots", () -> new IronsItem.Boots());
 	public static final RegistryObject<Item> STORM_LANDER = REGISTRY.register("storm_lander", () -> new StormLanderItem());
+	public static final RegistryObject<Item> ELETRICAL_INGOT = REGISTRY.register("eletrical_ingot", () -> new EletricalIngotItem());
 }

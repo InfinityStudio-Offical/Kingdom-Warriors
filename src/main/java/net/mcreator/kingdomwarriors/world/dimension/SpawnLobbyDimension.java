@@ -20,8 +20,8 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.Registry;
 import net.minecraft.client.renderer.DimensionSpecialEffects;
 
-import net.mcreator.kingdomwarriors.procedures.MessageDCProcedure;
-import net.mcreator.kingdomwarriors.procedures.MessageDCIProcedure;
+import net.mcreator.kingdomwarriors.procedures.MessageLProcedure;
+import net.mcreator.kingdomwarriors.procedures.MessageLIProcedure;
 
 import java.util.Set;
 import java.util.HashSet;
@@ -29,7 +29,7 @@ import java.util.HashSet;
 import com.google.common.collect.ImmutableSet;
 
 @Mod.EventBusSubscriber
-public class DarkCityDimension {
+public class SpawnLobbyDimension {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 	public static class Fixers {
 		@SubscribeEvent
@@ -58,7 +58,7 @@ public class DarkCityDimension {
 					return false;
 				}
 			};
-			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("kingdom_warriors:dark_city"), customEffect));
+			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("kingdom_warriors:spawn_lobby"), customEffect));
 		}
 	}
 
@@ -69,13 +69,13 @@ public class DarkCityDimension {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		if (event.getFrom() == ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("kingdom_warriors:dark_city"))) {
+		if (event.getFrom() == ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("kingdom_warriors:spawn_lobby"))) {
 
-			MessageDCProcedure.execute(entity);
+			MessageLProcedure.execute(entity);
 		}
-		if (event.getTo() == ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("kingdom_warriors:dark_city"))) {
+		if (event.getTo() == ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("kingdom_warriors:spawn_lobby"))) {
 
-			MessageDCIProcedure.execute(entity);
+			MessageLIProcedure.execute(entity);
 		}
 	}
 }

@@ -124,7 +124,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sliver_dust",
-      "path": "~/Main/Items/Sliver Set"
+      "path": "~/Main/Items/Ingots/Sliver Set"
     },
     {
       "name": "Ores",
@@ -142,7 +142,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sliver_ingot",
-      "path": "~/Main/Items/Sliver Set"
+      "path": "~/Main/Items/Ingots/Sliver Set"
     },
     {
       "name": "SMixerGUI",
@@ -257,7 +257,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sliver_smelting",
-      "path": "~/Main/Items/Sliver Set"
+      "path": "~/Main/Items/Ingots/Sliver Set"
     },
     {
       "name": "SliverBlasting",
@@ -266,7 +266,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sliver_blasting",
-      "path": "~/Main/Items/Sliver Set"
+      "path": "~/Main/Items/Ingots/Sliver Set"
     },
     {
       "name": "CementRecipe",
@@ -646,15 +646,6 @@
       "path": "~/Loader/Override/Iron Sets"
     },
     {
-      "name": "StormLander",
-      "type": "tool",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "storm_lander",
-      "path": "~/Main/Items/Combat/Stormlander"
-    },
-    {
       "name": "StormLanderClient",
       "type": "procedure",
       "sortid": 59,
@@ -690,6 +681,105 @@
         ]
       },
       "path": "~/Main/Items/Combat/Stormlander"
+    },
+    {
+      "name": "SpawnLobby",
+      "type": "dimension",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_lobby",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/Main/Dimesions/Lobby"
+    },
+    {
+      "name": "MessageDCI",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "message_dci",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Main/Dimesions/DC"
+    },
+    {
+      "name": "MessageL",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "message_l",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Main/Dimesions/Lobby"
+    },
+    {
+      "name": "MessageLI",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "message_li",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Main/Dimesions/Lobby"
+    },
+    {
+      "name": "StormLander",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storm_lander",
+      "path": "~/Main/Items/Combat/Stormlander"
+    },
+    {
+      "name": "EletricalIngot",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eletrical_ingot",
+      "path": "~/Main/Items/Ingots/Eletric Set"
+    },
+    {
+      "name": "EletricalIngotRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eletrical_ingot_recipe",
+      "path": "~/Main/Items/Ingots/Eletric Set"
+    },
+    {
+      "name": "StormLanderRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storm_lander_recipe",
+      "path": "~/Main/Items/Combat/Stormlander"
     }
   ],
   "variable_elements": [
@@ -697,18 +787,19 @@
       "name": "Mod_Version",
       "type": "string",
       "scope": "global",
-      "value": "\"1.0.0\""
+      "value": "1.0.0-PR4"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "enchantment.kingdom_warriors.swift_run_enchantment.desc": "Allow you to speed up while sprinting.",
       "item.kingdom_warriors.diamonds_chestplate": "Diamonds Chestplate",
+      "enchantment.kingdom_warriors.swift_sneak_enchantment.desc": "Allow you to speed up while sneaking (Dark City Only)",
       "item.kingdom_warriors.dark_city": "Dark City Portal Igniter",
       "item.kingdom_warriors.soild_with_curshed_ironore_bottle": "Crushed Iron Ore Soild Bottle",
       "item.kingdom_warriors.netherite_battle_axe": "Netherite Battle Axe",
       "item.kingdom_warriors.coins_sliver": "Sliver Coins",
-      "enchantment.kingdom_warriors.swift_run_enchantment": "Swift Run",
       "item.kingdom_warriors.netherithes_leggings": "Netherithes Leggings",
       "item.kingdom_warriors.diamonds_helmet": "Diamonds Helmet",
       "item.kingdom_warriors.water_glass_breaker": "Water Glass Breaker",
@@ -718,21 +809,23 @@
       "advancements.your_first_coin.descr": "Obtain your first coin",
       "item.kingdom_warriors.soild_with_cement_bottle": "Cement Soild Bottle",
       "item.kingdom_warriors.irons_boots": "Irons Boot",
+      "item.kingdom_warriors.spawn_lobby": "Spawn Lobby Portal Igniter",
       "item.kingdom_warriors.diamonds_leggings": "Diamonds Leggings",
       "itemGroup.tabsciences": "Kingdom Warriors | Sciences",
       "item.kingdom_warriors.irons_chestplate": "Irons Chestplate",
+      "item.kingdom_warriors.swift_run_enchantment": "Swift Sneak",
       "item.kingdom_warriors.diamond_battle_axe": "Diamond Battle Axe",
       "item.kingdom_warriors.coins_gold": "Gold Coins",
       "item.kingdom_warriors.sliver_dust": "Sliver Dust",
       "item.kingdom_warriors.glass_breaker": "Empty Glass Breaker",
       "item.kingdom_warriors.bedrock_pickaxe": "Bedrock Pickaxe",
+      "item.kingdom_warriors.eletrical_ingot": "Eletrical Ingot",
       "item.kingdom_warriors.storm_lander": "Storm Lander",
       "item.kingdom_warriors.netherithes_boots": "Netherithes Boot",
       "itemGroup.tabores": "Kingdom Warriors | Ores",
       "item.kingdom_warriors.netherithes_helmet": "Netherithes Helmet",
       "advancements.your_first_coin.title": "Your First Coin",
       "item.kingdom_warriors.irons_leggings": "Irons Leggings",
-      "enchantment.kingdom_warriors.swift_sneak_enchantment": "Swift Sneak",
       "item.kingdom_warriors.coins_copper": "Copper Coins",
       "item.kingdom_warriors.iron_battle_axe": "Iron Battle Axe",
       "item.kingdom_warriors.irons_helmet": "Irons Helmet",
@@ -811,14 +904,23 @@
                 ]
               },
               {
-                "name": "Sliver Set",
-                "children": []
-              },
-              {
                 "name": "Combat",
                 "children": [
                   {
                     "name": "Stormlander",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Ingots",
+                "children": [
+                  {
+                    "name": "Sliver Set",
+                    "children": []
+                  },
+                  {
+                    "name": "Eletric Set",
                     "children": []
                   }
                 ]
@@ -839,6 +941,10 @@
             "children": [
               {
                 "name": "DC",
+                "children": []
+              },
+              {
+                "name": "Lobby",
                 "children": []
               }
             ]

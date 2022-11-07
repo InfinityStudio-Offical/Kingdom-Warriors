@@ -21,7 +21,7 @@ public class IronBattleAxeItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 6f;
 			}
 
 			public int getLevel() {

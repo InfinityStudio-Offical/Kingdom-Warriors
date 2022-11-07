@@ -16,28 +16,28 @@
     },
     "canRespawnHere": false,
     "hasFog": false,
-    "isDark": true,
+    "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "DENY",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": false,
     "onPlayerEntersDimension": {
-      "name": "MessageDCI"
+      "name": "MessageLI"
     },
     "onPlayerLeavesDimension": {
-      "name": "MessageDC"
+      "name": "MessageL"
     },
     "portalFrame": {
       "value": ""
     },
     "portalParticles": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "PORTAL"
     },
     "portalLuminance": 0,
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Dark City Portal Igniter",
+    "igniterName": "Spawn Lobby Portal Igniter",
     "igniterTab": {
       "value": "TOOLS"
     },

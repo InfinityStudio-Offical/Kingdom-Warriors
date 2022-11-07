@@ -6,7 +6,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class KingdomWarriorsModVariables {
-	public static String Mod_Version = "\"1.0.0\"";
+	public static String Mod_Version = "1.0.0-PR4";
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
