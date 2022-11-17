@@ -18,7 +18,7 @@ After downloading, use Curse Forge or MC Luancher and put it to Mod Folder.
 ## Credits
 All Item Images are credited to Nova Skins and DeviantArt by anonymous and GamingFox123.
 > Infinity Studios @2022 | All Right Reversed
-* This Forge Mod belongs to Infinity Studios (Superproinf) and should not exist on Forge Page or any sites, the downloads are only downable from Githun Release Channel.
+* This Forge Mod belongs to Infinity Studios (Superproinf) and should not exist on Forge Page or any sites, the downloads are only downloadable from Github Release Channel.
 
 ## Good Question
 You might be asking why i don't  use Oraxen instead, because I don't know how to use Oraxen (Paid Version), so i changed my mind and make myself a Forge Mod instead, much easier.
